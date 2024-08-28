@@ -71,7 +71,7 @@ export default function Home() {
               paraíso de juazeiro do norte e estou
               <span className="text-main-100 font-bold">
                 {" "}
-                publicando um artigo científico na área além de pesquisas
+                publicando um artigo científico na área, além de pesquisas
                 acadêmicas voltadas para a experiência do usuário.
               </span>
             </p>
