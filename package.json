@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.0.2",
-    "framer-motion": "^10.16.16",
+    "clsx": "^2.1.1",
+    "framer-motion": "^10.18.0",
     "iconsax-react": "^0.0.8",
     "next": "14.0.4",
     "next-seo": "^6.5.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { BackgroundBoxesDemo } from "@/components/ui/BackgroundBoxes";
 import { ArrowDown2, ArrowRight, ArrowUp2 } from "iconsax-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -158,6 +159,8 @@ export default function Home() {
           />
         </div>
       </section>
+
+      <BackgroundBoxesDemo />
 
       <section
         id="projects"
