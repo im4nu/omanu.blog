@@ -87,7 +87,7 @@ export default function Home() {
             cursando o
             <span className="text-main-100">
               {" "}
-              7º semestre de Sistemas na UNIFAP.
+              8º semestre de Sistemas na UNIFAP.
             </span>
           </p>
           <div className="flex w-full bg-white h-[1px]"></div>
