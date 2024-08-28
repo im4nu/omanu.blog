@@ -21,11 +21,12 @@ export default function Home() {
             className="w-[150px] h-[150px] rounded-full flex lg:hidden"
           />
           <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-            Sou o manu tech!
+            Transformando Ideias em Experiências Inesquecíveis
           </p>
           <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-            Me chamo Emanuel, estou na área tech a mais de 10 anos e esse é o
-            meu site.
+            Design estratégico que une estética e funcionalidade para entregar
+            produtos que realmente fazem a diferença. Eu me chamo Emmanuel
+            Rodrigues e seja bem vindo ao meu portfólio.
           </p>
         </div>
       </WavyBackground>
@@ -53,31 +54,24 @@ export default function Home() {
 
             <p>
               Me chamo Emmanuel victor rodrigues, trabalho na área de
-              <span className="text-main-100">
+              <span className="text-main-100 font-bold">
                 {" "}
                 desenvolvimento de protótipos de interfaces digitais
-              </span>
+              </span>{" "}
               a mais de 3 anos e busco evoluir e aumentar meus conhecimentos e
               experiência nesse remo da tecnologia tão incrível onde me
               encontrei.
             </p>
-            <div className="flex w-full bg-white h-[1px]"></div>
-            <p>
-              Sou fascinado pela mente humana e na área de product design eu
-              consigo unir meus conhecimentos em desenvolvimento com a
-              experiência do usuário e assim
-              <span className="text-main-100">
-                trazer maior acertividade na solução do problema.
-              </span>{" "}
-            </p>
+
             <div className="flex w-full bg-white h-[1px]"></div>
             <p>
               Sou formando em sistemas da informação pela UNIFAP, universidade
               paraíso de juazeiro do norte e estou
-              <span className="text-main-100">
+              <span className="text-main-100 font-bold">
+                {" "}
                 publicando um artigo científico na área além de pesquisas
                 acadêmicas voltadas para a experiência do usuário.
-              </span>{" "}
+              </span>
             </p>
           </div>
 
