@@ -61,7 +61,7 @@ export default function Home() {
                 desenvolvimento de protótipos de interfaces digitais
               </span>{" "}
               a mais de 3 anos e busco evoluir e aumentar meus conhecimentos e
-              experiência nesse remo da tecnologia tão incrível onde me
+              experiência nesse ramo da tecnologia tão incrível onde me
               encontrei.
             </p>
 
