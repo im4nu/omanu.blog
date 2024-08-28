@@ -20,13 +20,23 @@ export const prototypesData = [
     development: false,
   },
   {
-    title: "Isabelly Esteticista",
+    title: "PersonNow",
     description:
-      "Landing page da profissional em estética Isabelly, com foco em atendimento via whatsapp a partir do click em cards de serviços.",
-    image: "/icons/isabellyEsteticista.svg",
+      "Aplicativo para conectar personal trainner com aluno de academia.",
+    image: "/icons/person-now-logo.svg",
     tech: "FIGMA",
-    link: "https://www.figma.com/design/yDkgNCXhNvrphhnkRMfn6N/Bell-LP?node-id=0-1&t=kqnFgsmO4KKEoqVD-1",
-    id: 2,
+    link: "https://www.figma.com/design/zROBSdHKylw5wd7nybWDrL/Apresenta%C3%A7%C3%A3o-PersonNow?t=AEnSZC1PWwTotJtn-1",
+    id: 3,
+    development: false,
+  },
+  {
+    title: "Ticket Zone",
+    description:
+      "Aplicativo de venda de ticket e ingressos para shows e eventos.",
+    image: "/icons/ticketZone.svg",
+    tech: "FIGMA",
+    link: "https://www.figma.com/design/qngBR40RBuibALiR0KcO51/Ticket-zone-%7C-Prot%C3%B3tipo?t=AEnSZC1PWwTotJtn-1",
+    id: 4,
     development: false,
   },
 ];
