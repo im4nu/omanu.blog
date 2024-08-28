@@ -11,18 +11,20 @@ export default function Home() {
     <main className="w-full h-full flex flex-col items-center justify-center font-raleway text-white font-medium">
       <Navbar />
 
-      <WavyBackground className="max-w-4xl mx-auto pb-40">
+      <WavyBackground id="hero" className="max-w-4xl lg:mx-auto pb-40">
         <div className="flex flex-col items-center gap-3 px-12">
           <Image
             src={"/images/manu-profile.png"}
             width={150}
             height={150}
             alt="Perfil do manu"
-            className="w-[150px] h-[150px] rounded-full flex lg:hidden"
+            className="w-[150px] h-[150px] rounded-full"
           />
-          <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
+
+          <p className="text-2xl lg:text-4xl xl:text-6xl text-white font-bold inter-var text-center">
             Transformando Ideias em Experiências Inesquecíveis
           </p>
+
           <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
             Design estratégico que une estética e funcionalidade para entregar
             produtos que realmente fazem a diferença. Eu me chamo Emmanuel
@@ -39,15 +41,15 @@ export default function Home() {
 
       <section
         id="about"
-        className="flex flex-row min-h-[800px] bg-opacity-70 bg-main lg:min-h-[1024px] h-full py-12 items-center justify-around w-full"
+        className="flex flex-col lg:flex-row min-h-[800px] bg-opacity-70 bg-main lg:min-h-[1024px] h-full py-12 items-center justify-around w-full"
       >
-        <div className="flex flex-col items-center gap-12 w-1/2">
-          <h2 className="mt-8">Sobre mim</h2>
+        <div className="flex flex-col items-center h-full gap-12 mt-24 w-full lg:w-1/2">
+          <h2 className="text-center font-bold text-lg">Sobre mim</h2>
 
           <div className="flex flex-col items-center justify-center w-4/5 sm:w-[350px] lg:w-[400px] text-center gap-4">
             <Image
               alt="Imagem de perfil do manu"
-              src={"/images/manu-profile-2.png"}
+              src={"/images/manu-profile.png"}
               width={100}
               height={100}
             />
@@ -121,10 +123,15 @@ export default function Home() {
           </div> */}
         </div>
 
-        <div className="w-1/2 flex flex-col items-center justify-center gap-6">
-          <h2 className="w-2/5 text-center">Quais projetos você deseja ver?</h2>
+        <div
+          id="projects"
+          className="mt-24 w-full lg:w-1/2 flex flex-col items-center justify-center gap-6"
+        >
+          <h2 className="text-center font-bold text-lg">
+            Quais projetos você deseja ver?
+          </h2>
 
-          <div className="flex flex-col gap-24 lg:gap-0 sm:flex-row items-center justify-center sm:justify-around w-4/5 sm:my-6">
+          <div className="flex flex-col mt-12 gap-24 lg:gap-0 sm:flex-row items-center justify-center sm:justify-around w-4/5 sm:my-6">
             <GradientCard
               category="prototypes"
               description="teste"

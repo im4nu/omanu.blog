@@ -41,7 +41,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#projects"
+              href="#about"
               className="text-sm text-white/80 group hover:text-white ease-in duration-300 flex flex-col items-center justify-center"
             >
               Projetos
