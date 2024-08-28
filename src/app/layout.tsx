@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta name="twitter:image:height" content="<generated>" />
       </head>
       <body
-        className={`bg-main w-screen min-h-screen h-full flex ${[
+        className={`bg-slate-900 w-screen min-h-screen h-full flex ${[
           raleway.className,
           inter.className,
         ]}`}

@@ -14,9 +14,9 @@ const config: Config = {
   theme: {
     extend: {
      colors: {
-      main: '#0E002B',
-      'main-100': '#C1A4FF',
-      'main-300': '#7018FF',
+      main: '#0F172A',
+      'main-100': '#93D1DE',
+      'main-300': '#1E5A67',
      },
      fontFamily: {
       raleway: ['Raleway', 'sans-serif'],

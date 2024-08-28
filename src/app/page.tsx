@@ -1,9 +1,10 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import { BackgroundBoxesDemo } from "@/components/ui/BackgroundBoxes";
+import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
 import { ArrowDown2, ArrowRight, ArrowUp2 } from "iconsax-react";
 import Image from "next/image";
 import Link from "next/link";
+import { GradientCard } from "@/components/GradientCard";
 
 export default function Home() {
   return (
@@ -15,10 +16,11 @@ export default function Home() {
         className="flex flex-col min-h-[680px] lg:flex-row bg-hero-mobile bg-no-repeat bg-cover bg-right px-[10%] sm:bg-hero-tablet w-full lg:items-center lg:justify-center h-full"
       >
         <aside className="lg:flex hidden w-1/2 h-full min-h-screen items-center justify-center bg-hero-desktop bg-cover bg-center">
-          <div className="flex flex-col h-fit items-center justify-center bg-main-300 rounded-sm">
+          <div className="flex flex-col h-fit items-center justify-center bg-main-300 rounded-3xl">
             <Image
               alt="Foto do Manu o dev"
               src={"/images/manu-profile.png"}
+              className="rounded-t-3xl"
               width={388}
               height={403}
             />
@@ -68,6 +70,8 @@ export default function Home() {
       <a href="#about" className="flex justify-center -mt-28">
         <ArrowDown2 size="32" color="#FFF" className="animate-bounce" />
       </a>
+
+      <BackgroundBoxesDemo />
 
       <section
         id="about"
@@ -160,8 +164,6 @@ export default function Home() {
         </div>
       </section>
 
-      <BackgroundBoxesDemo />
-
       <section
         id="projects"
         className="w-full flex flex-col items-center justify-center gap-6 mt-20"
@@ -169,38 +171,22 @@ export default function Home() {
         <h2 className="w-2/5 text-center">Quais projetos você deseja ver?</h2>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:justify-around w-4/5 sm:my-6">
-          <Link
-            href={"/prorotype"}
-            className="flex flex-col items-center gap-1 justify-center"
-          >
-            <Image
-              src={"/images/figma.png"}
-              alt="Ilustração do ícone figma"
-              width={126}
-              height={103}
-            />
-            <p className="underline">Protótipos</p>
-          </Link>
+          <GradientCard
+            category="prototypes"
+            description="teste"
+            image="/images/figma.png"
+            title="Protótipos"
+            link="/prorotype"
+          />
 
-          <Link
-            href={"/projects"}
-            className="flex flex-col items-center gap-1 justify-center"
-          >
-            <Image
-              src={"/images/projects.png"}
-              alt="Ilustração do ícone da apple, play store e vercel"
-              width={126}
-              height={103}
-            />
-            <p className="underline">Projetos online</p>
-          </Link>
+          <GradientCard
+            category="prototypes"
+            description="teste"
+            image="/images/projects.png"
+            title="Projetos online"
+            link="/projects"
+          />
         </div>
-        <Link
-          href="/projects"
-          className="rounded-xl items-center flex w-[180px] py-3 bg-main-300 justify-center font-medium hover:opacity-75 ease-in duration-300"
-        >
-          Ver todos
-        </Link>
       </section>
 
       <Footer />
