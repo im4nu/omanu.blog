@@ -15,11 +15,11 @@ export default function Home() {
       <WavyBackground id="hero" className="max-w-4xl lg:mx-auto pb-40">
         <div className="flex flex-col items-center gap-3 px-12">
           <Image
-            src={"/images/manu-profile.png"}
-            width={150}
-            height={150}
+            src={"/images/me.png"}
+            width={520}
+            height={520}
             alt="Perfil do manu"
-            className="w-[150px] h-[150px] rounded-full"
+            className="w-[150px] h-[150px] rounded-full object-cover object-top"
           />
 
           <p className="text-2xl lg:text-4xl xl:text-6xl text-white font-bold inter-var text-center">
@@ -52,9 +52,10 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center w-4/5 sm:w-[350px] lg:w-[400px] text-center gap-4">
             <Image
               alt="Imagem de perfil do manu"
-              src={"/images/manu-profile.png"}
-              width={100}
-              height={100}
+              src={"/images/me.png"}
+              className="rounded-full w-[150px] h-[150px] object-cover object-top"
+              width={520}
+              height={520}
             />
 
             <p>

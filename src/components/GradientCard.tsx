@@ -21,7 +21,7 @@ export function GradientCard({
 }: GradientCardProps) {
   return (
     <Link href={link}>
-      <BackgroundGradient className="rounded-[22px] w-[250px] lg:w-[300px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] w-[250px] lg:w-[300px] max-w-sm p-4 sm:p-10 bg-main dark:bg-zinc-900">
         <Image
           src={image}
           alt="Ilustração"
