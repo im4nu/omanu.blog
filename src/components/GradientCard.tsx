@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { BackgroundGradient } from "@/components/ui/Background-gradient";
 import Image from "next/image";
 import { ArrowRight } from "iconsax-react";
@@ -22,13 +21,13 @@ export function GradientCard({
 }: GradientCardProps) {
   return (
     <Link href={link}>
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] w-[250px] lg:w-[300px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <Image
           src={image}
-          alt="jordans"
-          height="200"
-          width="200"
-          className="object-contain"
+          alt="Ilustração"
+          height={200}
+          width={200}
+          className="object-contain w-[200px] h-[200px]"
         />
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           {title}

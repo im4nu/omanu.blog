@@ -1,4 +1,4 @@
-import Link, { LinkProps } from "next/link";
+import Link from "next/link";
 
 import React from "react";
 
@@ -33,6 +33,7 @@ export default function LinkDemo({
       }
       ${className ? className : ""}
       `}
+      target="_blank"
     >
       {children}
     </Link>

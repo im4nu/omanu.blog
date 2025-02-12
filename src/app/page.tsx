@@ -2,6 +2,7 @@ import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
 import Footer from "@/components/Footer";
 import { GradientCard } from "@/components/GradientCard";
 import Navbar from "@/components/Navbar";
+import HeroUserActions from "@/components/pdfDownload";
 import { WavyBackground } from "@/components/ui/Wave-background";
 import { ArrowDown2, ArrowUp2 } from "iconsax-react";
 import Image from "next/image";
@@ -30,6 +31,8 @@ export default function Home() {
             produtos que realmente fazem a diferença. Eu me chamo Emmanuel
             Rodrigues e seja bem vindo ao meu portfólio.
           </p>
+
+          <HeroUserActions />
         </div>
       </WavyBackground>
 
@@ -134,15 +137,15 @@ export default function Home() {
           <div className="flex flex-col mt-12 gap-24 lg:gap-0 sm:flex-row items-center justify-center sm:justify-around w-4/5 sm:my-6">
             <GradientCard
               category="prototypes"
-              description="teste"
+              description="Alguns protótipos legais que desenvolvi."
               image="/images/figma.png"
               title="Protótipos"
               link="/prorotype"
             />
 
             <GradientCard
-              category="prototypes"
-              description="teste"
+              category="projects"
+              description="Projetos reais utilizados por clientes e empresas."
               image="/images/projects.png"
               title="Projetos online"
               link="/projects"

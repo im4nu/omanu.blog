@@ -5,6 +5,7 @@ interface ButtonProps {
   variant: "outlined" | "contained";
   children: React.ReactNode;
   className?: string;
+  onCLick?: () => void;
 }
 
 export default function Button({
@@ -12,6 +13,7 @@ export default function Button({
   variant,
   children,
   className,
+  onCLick,
   ...rest
 }: ButtonProps) {
   return (
@@ -28,6 +30,7 @@ export default function Button({
       }
       ${className ? className : ""}
       `}
+      onClick={onCLick}
     >
       {children}
     </button>
