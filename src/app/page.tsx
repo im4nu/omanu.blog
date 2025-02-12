@@ -135,7 +135,7 @@ export default function Home() {
             Quais projetos você deseja ver?
           </h2>
 
-          <div className="flex flex-col mt-12 gap-24 lg:gap-0 sm:flex-row items-center justify-center sm:justify-around w-4/5 sm:my-6">
+          <div className="flex flex-col mt-12 gap-24 lg:gap-6 sm:flex-row items-center justify-center sm:justify-around w-4/5 sm:my-6">
             <GradientCard
               category="prototypes"
               description="Alguns protótipos legais que desenvolvi."
