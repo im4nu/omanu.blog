@@ -1,8 +1,7 @@
 export const productsData = [
   {
     title: "StDoctor - Landing Page",
-    description:
-      "Landing page para o sistema de gestão de clínicas médicas.",
+    description: "Landing page para o sistema de gestão de clínicas médicas.",
     image: "/images/st-doctor.png",
     tech: "React, NextJs, TypeScript, Vercel",
     link: "https://st-doctor-lp.vercel.app/",
@@ -30,19 +29,17 @@ export const productsData = [
     development: false,
   },
   {
-    title: "Grupo W - E-commerce de Networking feminino",
-    description:
-      "Um sistema web para conectar mulheres empreendedoras e promover eventos do W.",
-    image: "/icons/grupo-w-logo.svg",
+    title: "Presponto - Ateliê de costura",
+    description: "Um sistema web para conectar clientes da reigão ao ateliê.",
+    image: "/images/logo_claudinha.png",
     tech: "React, NextJs, TypeScript, Vercel",
-    link: "https://www.ogrupow.com.br/",
+    link: "https://www.claudinhacostureira.com.br/",
     id: 2,
     development: false,
   },
   {
     title: "EventoSmart - App de Gestão de Eventos",
-    description:
-      "Aplicativo ios e android para gestão de eventos completo.",
+    description: "Aplicativo ios e android para gestão de eventos completo.",
     image: "/images/eventoSmart.png",
     tech: "React Native, Expo, TypeScript",
     link: "https://apps.apple.com/br/app/eventosmart/id6465455717",

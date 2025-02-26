@@ -9,7 +9,7 @@ export default function Projects() {
     <main className="flex relative min-h-screen w-screen items-center justify-center overflow-hidden font-raleway">
       <div className="flex flex-col items-center justify-start w-4/5 md:w-[70%] text-white mt-8">
         <div className="flex flex-col items-start gap-3 justify-center w-full">
-          <LinkDemo variant="outlined" link={"/"}>
+          <LinkDemo variant="outlined" link={"/"} standInSameTab>
             <ArrowLeft2 size={24} color="#fff" />
           </LinkDemo>
 

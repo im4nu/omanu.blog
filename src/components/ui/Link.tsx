@@ -8,6 +8,7 @@ interface ButtonProps {
   children: React.ReactNode;
   className?: string;
   link?: any;
+  standInSameTab?: boolean;
 }
 
 export default function LinkDemo({
@@ -16,6 +17,7 @@ export default function LinkDemo({
   children,
   className,
   link,
+  standInSameTab,
   ...rest
 }: ButtonProps) {
   return (
@@ -33,7 +35,7 @@ export default function LinkDemo({
       }
       ${className ? className : ""}
       `}
-      target="_blank"
+      target={standInSameTab ? "_self" : "_blank"}
     >
       {children}
     </Link>
